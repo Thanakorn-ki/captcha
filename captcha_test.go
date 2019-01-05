@@ -7,7 +7,7 @@ import (
 )
 
 func TestCaptchaTwoPlusFive(t *testing.T) {
-	expected := "2 * fives"
+	expected := "2 * five"
 	result := captcha.Captcha(1, 2, 3, 5)
 	if expected != result {
 		t.Errorf("it should say %q but get %q", expected, result)
